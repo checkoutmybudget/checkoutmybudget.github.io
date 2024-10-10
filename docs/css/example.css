@@ -1,0 +1,168 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    width: 150px;
+    height: 40px;
+    background-color: #555;
+    border-radius: 8px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-item {
+    width: 80px;
+    height: 30px;
+    background-color: #555;
+    border-radius: 8px;
+}
+
+/* Main Product Section */
+.product-display {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-image {
+    width: 50%;
+    height: 400px;
+    background-color: #d3d3d3;
+    border-radius: 12px;
+}
+
+.product-info {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product-title {
+    width: 80%;
+    height: 40px;
+    background-color: #d3d3d3;
+    border-radius: 8px;
+}
+
+.product-description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.description-bar {
+    height: 20px;
+    background-color: #d3d3d3;
+    border-radius: 8px;
+}
+
+.description-bar.short {
+    width: 60%;
+}
+
+.product-price {
+    width: 30%;
+    height: 40px;
+    background-color: #d3d3d3;
+    border-radius: 8px;
+}
+
+.buy-button {
+    width: 40%;
+    height: 50px;
+    background-color: #333;
+    border-radius: 12px;
+}
+
+/* Related Products Section */
+.related-products {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.related-title {
+    width: 30%;
+    height: 40px;
+    background-color: #d3d3d3;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.related-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.related-item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.related-image {
+    width: 100%;
+    height: 150px;
+    background-color: #d3d3d3;
+    border-radius: 12px;
+}
+
+.related-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.related-bar {
+    height: 20px;
+    background-color: #d3d3d3;
+    border-radius: 8px;
+}
+
+.related-bar.short {
+    width: 70%;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    width: 150px;
+    height: 30px;
+    background-color: #555;
+    border-radius: 8px;
+}

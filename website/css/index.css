@@ -1,0 +1,65 @@
+#main {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+#intro {
+    text-align: center;
+    margin: 50px 0;
+}
+
+#intro h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#intro p {
+    margin: 0 20px;
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+#features {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.feature-item {
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 30%;
+}
+
+.feature-item img {
+    width: 100%;
+    height: auto;
+}
+
+.feature-item:hover {
+    transform: scale(1.05);
+}
+
+.feature-item p {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+#details {
+    margin: 50px 0;
+}
+
+.detail-section {
+    margin-bottom: 30px;
+}
+
+.detail-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.detail-section p {
+    font-size: 1.1em;
+    line-height: 1.8;
+}

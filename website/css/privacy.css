@@ -1,0 +1,23 @@
+.section-title {
+    font-size: 1.4em;
+    font-style: bold;
+}
+
+#effective-date {
+    color: #777;
+}
+
+#policy-body {
+    width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#document-title {
+    font-size: 1.8em;
+}
+
+#policy-header {
+    text-align: center;
+    margin: 20px;
+}

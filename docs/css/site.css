@@ -43,6 +43,13 @@ body {
     text-decoration: underline;
 }
 
+.header-links #firefox-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
 .product-name {
     font-size: 1.5em;
     color: #FFF;

@@ -1,4 +1,5 @@
 #main {
+    flex: 1 0 auto;
     padding: 20px;
     margin: 20px auto;
     max-width: 1200px;
@@ -6,7 +7,8 @@
 
 #intro {
     text-align: center;
-    margin: 50px 0;
+    width: 70%;
+    margin: 50px auto;
 }
 
 #intro h1 {
@@ -47,7 +49,8 @@
 }
 
 #details {
-    margin: 50px 0;
+    margin: 50px auto;
+    width: 70%
 }
 
 .detail-section {

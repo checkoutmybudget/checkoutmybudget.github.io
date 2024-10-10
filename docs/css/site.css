@@ -9,6 +9,10 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 #main-header {
@@ -74,4 +78,10 @@ footer {
 
 .footer-links a:hover {
     text-decoration: underline;
+}
+
+@media (min-height: 100vh) {
+    footer {
+        position: static;
+    }
 }

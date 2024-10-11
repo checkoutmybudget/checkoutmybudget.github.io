@@ -76,6 +76,26 @@ body {
     text-decoration: none;
 }
 
+@media (max-width: 1088px) {
+  .product-image {
+      size: 30px;
+  }
+    
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-links {
+    margin-top: 10px;
+  }
+
+  #features {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
 div {
     margin: 15px;
 }

@@ -78,8 +78,13 @@ body {
 
 @media (max-width: 1088px) {
   .product-image {
-      size: 30px;
+      display: none;
   }
+    
+
+  .product-name {
+    font-size: 1em;
+}
     
   .header-content {
     flex-direction: column;
@@ -92,7 +97,6 @@ body {
 
   #features {
     flex-direction: column;
-    align-items: flex-start;
   }
 }
 

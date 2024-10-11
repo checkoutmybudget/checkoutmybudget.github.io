@@ -32,21 +32,36 @@ body {
 }
 
 .header-links a {
+    display: inline-flex;
+    align-items: center;
+    background-color: #2962ff;
     color: white;
-    text-decoration: none;
-    margin-left: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
     font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
 }
 
 .header-links a:hover {
-    text-decoration: underline;
+    background-color: #396eff;
+    box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.4);
+    text-decoration: none;
 }
 
 .header-links #firefox-link {
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
+    display: inline-flex;
+    align-items: center;
+    background-color: #a1a2a5;
+    color: #e7e8ec;
+    padding: 10px 20px;
+    font-size: 1.2em;
     font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
 }
 
 .product-name {

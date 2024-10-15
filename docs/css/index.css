@@ -73,3 +73,9 @@
     font-size: 1.1em;
     line-height: 1.8;
 }
+
+ul {
+    display:inline-block;
+    margin: 0px auto;
+    text-align: left;
+}

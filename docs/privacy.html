@@ -45,18 +45,23 @@
       <div id="policy-what-title" class="section-title">
         What does Check Out My Budget store?
       </div>
-      Check Out My Budget stores your budget information locally after authenticating
-      with YNAB but this information does not leave your device. The information
-      stored locally includes:
+      Check Out My Budget stores your budget categories locally, in the browser extension's
+      <a href="https://developer.chrome.com/docs/extensions/reference/api/storage">reserved storage area</a>
+      after authenticating with YNAB. 
+      This information does not leave your device. The information stored locally
+      includes:
       <ul>
         <li>
-          The budget information pulled from YNAB including the budget name, budget category names, and their balance.
+          The budget information pulled from YNAB including the budget name,
+          budget category names, and their balance.
         </li>
         <li>
-          Your preference for which budget items to display and how to display them per website.
+          Your preference for which budget items to display and how to display
+          them per website.
         </li>
         <li>
-          Account information needed to request updated budget information from ynab, called authentication tokens.
+          Account information needed to request updated budget information from
+          ynab, called the OAuth access token.
         </li>
       </ul>
     </div>
